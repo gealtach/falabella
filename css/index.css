@@ -1,0 +1,333 @@
+body{
+    display: grid;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+p, li{
+    font-family: pfbeausans,Arial,sans-serif;
+}
+button{
+    font-family: pfbeausans,Arial,sans-serif;
+    background-color: #43B02A;
+    padding: 9.6px 16px 9.6px 16px;
+    border: 1px solid #38a121;
+    color: white;
+    font-weight: 700;
+    letter-spacing: .16rem;
+    border-radius: .3rem;
+}
+.gc1{
+    display: grid;
+    height: 34.9px;
+    background-color: #262729;
+    grid-template-columns: 900px auto;
+}
+#gc1l1{
+    display: grid;
+    grid-template-columns: 60px 48px 65px 62px 50px 48px 43px 42px 41px;
+    margin: 9px 0 9px 0;
+    padding-left: 10px;
+}
+.gc1li1{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+}
+.gc1li1 > a{
+    color: white;
+}
+#gc1l2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    margin: 9px 0 9px 0;
+    padding-left: 715px;
+}
+.gc1li2{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+}
+#logohc, #logooc{
+    padding: 5px;
+}
+.gc2{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100px;
+}
+#gc21{
+    padding-left: 400px;
+    margin-top: 30px;
+}
+#btnmc{
+    height: 37px;
+    width: 143px;
+    margin-top: 30px;
+    margin-left: 350px;
+    border-radius: .38rem;
+    line-height: 1rem;
+}
+.gc3{
+    display: flex;
+    justify-content: center;
+}
+#gc3l{
+    display: grid;
+    grid-template-columns: 94px 130px 200px 100px 121px 97px 121px 120px 141px;
+    font-size: .75rem;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.gc3li{
+    color: black;
+}
+.gc4{
+    display: grid;
+    grid-template-columns: 160px 200px 565px auto 160px;
+    grid-template-rows: 200px 50px 200px;
+}
+#slider1{
+    background-image: url('https://images.ctfassets.net/p6eyia4djstu/2IhWFapC7MvH8nU4hr6wPR/48d1e8514e6b1f6f8a3480841ab41a53/vitrinaPPL-Unete-al-banco-de-los-Gennials.jpg?fm=webp&q=70');
+    grid-area: 1 / 1 / 4 / 6;
+    background: ;
+}
+.gc4img{
+    width: 50px;
+    height: 50px;
+    padding-left: 55px;
+}
+#btngc41{
+    grid-area: 2 / 1  / 3 / 2;
+}
+#btngc42{
+    grid-area: 2 / 5 / 3 / 6;
+}
+#btngc43{
+    grid-area: 3 / 3 / 4 / 4;
+}
+#btngc4{
+    height: 53px;
+    width: 176px;
+    font-size: 1rem;
+    margin: 100px 0 0 100px;
+}
+.gc5{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px;
+    border: 1px solid #cfdae6;
+    margin: 10px 300px 10px 300px;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+}
+#gc5p{
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: inherit;
+    font-size: 24px;
+    letter-spacing: -.4px;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+#gc5inp{
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    margin-top: 10px;
+    width: 26.6rem;
+    font-size: 16px;
+    border-radius: 6px;
+    border: solid 1px #cfdae6;
+    margin-top: 25px;
+}
+#gc5btn{
+    height: 20px;
+    width: 150px;
+    font-size: 1rem;
+    padding: 0;
+    height: 2.5rem;
+    margin: 30px auto auto auto;
+}
+.gc6{
+    display: grid;
+    grid-template-columns: auto 360px 360px 360px auto;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+#gc61i, #gc62i, #gc63i, #gc61p1, #gc61p2, #gc62p1, #gc62p2, #gc63p1, #gc63p2{
+    width: 358px;
+}
+#gc61p1, #gc61p2, #gc62p1, #gc62p2, #gc63p1, #gc63p2{
+    margin: 16px 5px
+}
+#gc61p1, #gc62p1, #gc63p1{
+    font-weight: 700;
+}
+#gc61p2, #gc62p2, #gc63p2{
+    font-weight: 400;
+}
+#gc61{
+    grid-column: 2 / 3;
+    border: .617284px solid #eaeff4;
+    border-radius: 16px;
+}
+#gc62{
+    grid-column: 3 / 4;
+    border: .617284px solid #eaeff4;
+    border-radius: 16px;
+}
+#gc63{
+    grid-column: 4 / 5;
+    border: .617284px solid #eaeff4;
+    border-radius: 16px;
+}
+.gc7{
+    display: grid;
+    grid-template-columns: auto 580px 580px auto;
+    grid-template-rows: 302px 302px 302px 302px 302px 302px 302px;
+    margin-top: 100px;
+}
+.gc7 > img{
+    width: 550px;
+    height: 302px;
+}
+
+#gc71{
+    grid-area: 1 / 2 / 2 / 3;
+}
+#gc71i{
+    grid-area: 1 / 3 / 2 / 4;
+}
+#gc72{
+    grid-area: 2 / 3 / 3 / 4;
+}
+#gc72i{
+    grid-area: 2 / 2 / 3 / 3;
+}
+#gc73{
+    grid-area: 3 / 2 / 4 / 3;
+}
+#gc73i{
+    grid-area: 3 / 3 / 4 / 4;
+}
+#gc74{
+    grid-area: 4 / 3 / 5 / 4;
+}
+#gc74i{
+    grid-area: 4 / 2 / 5 / 3;
+}#gc75{
+    grid-area: 5 / 2 / 6 / 3;
+}
+#gc75i{
+    grid-area: 5 / 3 / 6 / 4;
+}
+#gc76{
+    grid-area: 6 / 3 / 7 / 4;
+}
+#gc76i{
+    grid-area: 6 / 2 / 7 / 3;
+}#gc77{
+    grid-area: 7 / 2 / 8 / 3;
+}
+#gc77i{
+    grid-area: 7 / 3 / 8 / 4;
+}
+.gc7p1, .gc7p2{
+    width: 470px;
+    text-align: center;
+}
+.gc7p1{
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.gc7p2{
+    font-weight: 400;
+
+    margin-left: 40px;
+}
+.gc7btn{
+    font-size: 1rem;
+    height: 45px;
+    width: 260px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.gc8{
+    display: grid;
+    grid-template-columns: auto 361px 361px 361px auto;
+    grid-template-rows: 230px auto;
+}
+#gc81{
+    grid-column: 2 / 3;
+}
+#gc82{
+    grid-column: 3 / 4;
+}
+#gc83{
+    grid-column: 4 / 5;
+}
+#gc8b1{
+    width: 50px;
+    height: 50;
+    grid-column: 5 / 6;
+    grid-row: 2/3;
+    background-color: #262729;
+    border-radius: 20px;
+}
+#gc8b2{
+    display: grid;
+    width: 50px;
+    height: 50;
+    grid-column: 1 / 2;
+    background-color: #262729;
+    border-radius: 20px;
+    grid-row: 2/3;
+}
+.gc9{
+    display: grid;
+    grid-template-columns: auto 290px 290px 290px 290px auto;
+    grid-template-rows: auto auto;
+    margin-top: 200px;
+    background-color: #262729;
+
+}
+#gc91{
+    grid-area: 1/2/2/3;
+    color: white;
+}
+#gc92{
+    grid-area: 1/3/2/4;
+}
+#gc93{
+    grid-area: 1/5/2/6;
+}
+#gc94{
+    grid-area: 2/2/3/6;
+    color: white;
+}
+.gc9l, #gc9b, .gc9pa{
+    color: white;
+}
+#gc94 > p{
+    text-align: center;
+}
+#gc9b{
+    padding: 10px;
+    margin: 20px;
+}
+#gc94i{
+    width: 50px;
+    height: 50px;
+    margin-left: 1100px;
+}
